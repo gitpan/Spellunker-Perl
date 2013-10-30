@@ -28,19 +28,21 @@ no_index:
 provides:
   Spellunker::CLI::Perl:
     file: lib/Spellunker/CLI/Perl.pm
-    version: v0.3.1
+    version: v0.3.2
   Spellunker::Perl:
     file: lib/Spellunker/Perl.pm
-    version: v0.3.1
+    version: v0.3.2
 requires:
   Getopt::Long: 0
   Mouse: 0
   PPI: 0
-  Spellunker::Perl: 0
+  Spellunker: 0
   Term::ANSIColor: 0
   perl: 5.010001
 resources:
   bugtracker: https://github.com/tokuhirom/Spellunker-Perl/issues
   homepage: https://github.com/tokuhirom/Spellunker-Perl
   repository: git://github.com/tokuhirom/Spellunker-Perl.git
-version: v0.3.1
+version: v0.3.2
+x_contributors:
+  - 'Syohei YOSHIDA <syohex@gmail.com>'
